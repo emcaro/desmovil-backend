@@ -2,9 +2,11 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 require('dotenv/config');
 
 //middlewares
+app.use(cors());
 app.use(bodyParser.json());
 
 
@@ -26,5 +28,5 @@ mongoose.connect(
 
 //Iniciando el servidor Http
 app.listen('8080', () => {
-  console.log('Servidor HTTP para "desmovil.backend" ejecutándose en http://localhost:3000')
+  console.log('Servidor HTTP para "desmovil.backend" ejecutándose en http://localhost:8080')
 });
