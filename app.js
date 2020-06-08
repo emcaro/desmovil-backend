@@ -11,8 +11,8 @@ app.use(bodyParser.json());
 
 
 //Rutas
-const postsRoute = require('./routes/posts');
-app.use('/posts', postsRoute);
+const piezasRoute = require('./routes/piezas');
+app.use('/piezas', piezasRoute);
 
 app.get('/', (req, res) => {
   res.send('Página Principal');
