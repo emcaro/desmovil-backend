@@ -1,0 +1,27 @@
+{
+  "name": "desmovil-backend",
+  "version": "1.0.0",
+  "description": "An API REST backend with node.js and mongodb for desmovil app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emcaro/desmovil-backend.git"
+  },
+  "keywords": [
+    "desmovil",
+    "backend",
+    "api",
+    "rest",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "emcaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emcaro/desmovil-backend/issues"
+  },
+  "homepage": "https://github.com/emcaro/desmovil-backend#readme"
+}
